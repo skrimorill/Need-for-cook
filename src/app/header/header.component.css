@@ -1,0 +1,39 @@
+.navbar-default {
+  width: auto;
+  background-color: rgb(248 239 239);
+}
+
+.container-fluid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 4fr;
+  grid-template-rows: 1fr;
+}
+
+.navbar-header {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 1rem;
+} 
+
+.navbar-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* .dropdown-content {
+  z-index: 99;
+} */
+
+.navbar .container-fluid .navbar-header .navbar-right .navbar-nav__right{
+  position: relative;
+  /* float: left; */
+}
+
+ul li a {
+  position: absolute;
+  left: 0;
+}

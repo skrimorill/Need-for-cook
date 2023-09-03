@@ -1,0 +1,10 @@
+.clearfix {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.pull-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

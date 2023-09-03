@@ -28,12 +28,24 @@
   z-index: 99;
 } */
 
-.navbar .container-fluid .navbar-header .navbar-right .navbar-nav__right{
+.navbar-nav__right{
   position: relative;
-  /* float: left; */
+  display: flex;
+  align-items: center;
+  right: 20px;
 }
 
-ul li a {
+.dropdown-menu {
+  background-color: rgba(199, 189, 189, 0.767);
   position: absolute;
-  left: 0;
+  top: 75%;
+  right: 0;
+}
+
+.navbar-nav__item-link {
+  white-space: pre;
+}
+
+.dropdown-menu__item  {
+  white-space: nowrap;
 }

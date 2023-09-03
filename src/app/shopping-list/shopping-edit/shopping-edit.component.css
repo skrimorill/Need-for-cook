@@ -1,0 +1,19 @@
+.form__row {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}   
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__control-number { 
+  max-width: 4rem;
+}
+
+.col-two-xs {
+  display: flex;
+  gap: 0.5rem;
+}

@@ -1,0 +1,9 @@
+<div class="drop-drop">
+<button class="button" (click)="showItems()">Show</button>
+  <ul class="drop-down" *ngIf="droppy">
+    <li class="drop-down__item" *ngFor="let game of localData">
+      <span>{{ game }}</span> 
+    </li>
+  </ul>
+</div>
+

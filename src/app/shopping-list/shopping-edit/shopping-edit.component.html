@@ -4,16 +4,19 @@
       <div class="form__row">
         <div class="form__col form__group">
           <label for="name">Name</label>
-          <input type="text" id="name" class="form__control form__control-text">
+          <input type="text" id="name" class="form__control form__control-text"
+          #nameInput>
         </div>
         <div class="form__col-sm form__group">
           <label for="amount">Amount</label>
-          <input type="number" id="amount" class="form__control form__control-number">
+          <input type="number" id="amount" class="form__control form__control-number"
+          #amountInput>
         </div>
       </div>
       <div class="row-two">
         <div class="col-two-xs">
-          <button class="btn btn-success" type="submit">
+          <button class="btn btn-success" type="submit"
+          (click)="onAddItem()">
             Add
           </button>
           <button class="btn btn-danger" type="button">
